@@ -1,0 +1,23 @@
+{
+  "name": "filters",
+  "version": "3.0.0",
+  "description": "Filter ini dibuat untuk [AdGuard](https://HazakuraID/adguard), yang merupakan pemblokir iklan terbaik yang pernah saya temui.",
+  "main": "filter-sin-compile.js",
+  "scripts": {
+    "start": "node filter-id-compile.js",
+    "test": "node filter-id-compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HazakuraID/filters.git"
+  },
+  "author": "HazakuraID <b@.cc> (https://Hazakura.com)",
+  "license": "UNLICENSE",
+  "bugs": {
+    "url": "https://github.com/HazakuraID/filters/issues"
+  },
+  "homepage": "https://github.com/HazakuraID/filters#readme",
+  "dependencies": {
+    "@bevry/list": "^1.0.0"
+  }
+}

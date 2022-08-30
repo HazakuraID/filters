@@ -1,21 +1,24 @@
-MIT License
+Ini adalah perangkat lunak gratis dan tidak terbebani yang dirilis ke domain publik.
 
-Copyright (c) 2022 HazakuraID
+Siapa pun bebas untuk menyalin, memodifikasi, menerbitkan, menggunakan, menyusun, menjual, atau
+mendistribusikan perangkat lunak ini, baik dalam bentuk kode sumber atau sebagai kompilasi
+biner, untuk tujuan apa pun, komersial atau non-komersial, dan oleh
+cara.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Di yurisdiksi yang mengakui undang-undang hak cipta, penulis atau penulis
+perangkat lunak ini mendedikasikan setiap dan semua kepentingan hak cipta di
+perangkat lunak ke domain publik. Dedikasi ini kami buat untuk kepentingan
+masyarakat luas dan merugikan ahli waris kami dan
+penerus. Kami bermaksud dedikasi ini menjadi tindakan nyata
+pelepasan untuk selama-lamanya semua hak sekarang dan di masa depan atas ini
+perangkat lunak di bawah undang-undang hak cipta.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+PERANGKAT LUNAK INI DISEDIAKAN "SEBAGAIMANA ADANYA", TANPA JAMINAN APA PUN,
+TERSURAT MAUPUN TERSIRAT, TERMASUK NAMUN TIDAK TERBATAS PADA JAMINAN DARI
+DAPAT DIPERDAGANGKAN, KESESUAIAN UNTUK TUJUAN TERTENTU DAN TANPA PELANGGARAN.
+DALAM KEADAAN APA PUN PENULIS TIDAK BERTANGGUNG JAWAB ATAS KLAIM, KERUSAKAN ATAU
+TANGGUNG JAWAB LAIN, BAIK DALAM TINDAKAN KONTRAK, KERUGIAN ATAU LAINNYA,
+TIMBUL DARI, DARI ATAU SEHUBUNGAN DENGAN PERANGKAT LUNAK ATAU PENGGUNAAN ATAU
+HUBUNGAN LAIN DALAM PERANGKAT LUNAK.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Untuk informasi lebih lanjut, silakan merujuk ke <https://unlicense.org>

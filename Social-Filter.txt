@@ -1,0 +1,53 @@
+! Title: Social Filter
+! Description: Nonaktifkan elemen kesombongan dan adiktif pada Instagram, Twitter, YouTube, Medium
+! Version: 1.5.5
+! Expires: 1 jam (frekuensi pembaruan)
+! Homepage: https://github.com/HazakuraID/filters
+! License: https://unlicense.org
+
+! Dapatkan kembali agensi anda, blokir notifikasi Product Hunt
+||producthunt.com##[href*=notification],[data-test*=notification],[class*=notification],[title=Notifications]
+
+! Memperoleh kembali agensi anda, alihkan beranda Medium ke aliran jaringan Medium
+medium.com#%#if ( location.pathname === "/" ) { location.pathname = '/stream/network' };
+
+! Dapatkan kembali agensi anda, blokir rekomendasi, tren, dan saran Twitter
+||twitter.com/i/api/2/guide.json
+||twitter.com/i/api/1.1/users/recommendations.json
+
+! Klaim kembali agensi anda, alihkan tab penjelajahan Twitter ke tab Pencarian
+twitter.com#%#if ( location.pathname === "/explore" ) { location.pathname = '/search-advanced' };
+
+! Klaim kembali agensi anda, arahkan kembali beranda Twitter ke Pesan Anda
+twitter.com#%#if ( location.pathname === "/" ) { location.pathname = '/messages' };
+
+! Klaim kembali agensi anda, sembunyikan tautan apa pun ke beranda Twitter
+||twitter.com##[href="/home"]
+
+! Klaim kembali agensi anda, arahkan kembali beranda Youtube ke Tonton Nanti
+www.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/feed/subscriptions' };
+m.youtube.com#%#if ( ["/", "/home"].includes(location.pathname) ) { location.pathname = '/feed/subscriptions' };
+
+! Klaim kembali agensi anda, blokir tautan ke beranda YouTube dan di bilah sisi yang sedang tren
+||youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:first-child
+||youtube.com###items > ytd-guide-entry-renderer.style-scope.ytd-guide-section-renderer:nth-child(2)
+
+! Klaim kembali agensi anda, sembunyikan komentar YouTube (sekarang hanya kebisingan/gangguan, virus memetika bersaing untuk berkembang biak)
+||youtube.com##ytd-comments
+
+! Klaim kembali agensi anda, sembunyikan bilah sisi YouTube (maksudnya adalah untuk memberikan distraksi yang memanfaatkan perhatian anda)
+||youtube.com###secondary
+
+! Klaim kembali agensi kamu, blokir umpan sosial GitHub, dan perluas aktivitas anda
+github.com#%#if( location.pathname === "/" ) setTimeout(() => { document.querySelector('.js-show-more-recent-items').click() }, 2000)
+||github.com###dashboard > div.news > *:not(:first-child,:nth-child(2))
+||github.com##aside[aria-label=Explore]
+
+! Hapus berbagai elemen kesombongan dan penarik perhatian dari Instagram
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2) > a._0ZPOP.kIKUG > svg._8-yf5 > path
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:nth-child(2)
+||instagram.com###react-root > section._9eogI.E3X2T > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.ctQZg:last-child > div._47KiJ > div.XrOey:first-child
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s > div.MWDvN > div.oJZym:first-child
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.o64aR:nth-child(2) > div.v9tJq.VfzDr > header.vtbgv:first-child > section.zwlfE:last-child > ul.k9GMp:nth-child(2) > li.Y8-fY:nth-child(2)
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > main.SCxLW.o64aR:nth-child(2) > section._1SP8R.j9XKR:first-child > div.COOzN:last-child > div._6Rvw2.DPiy6.Igw0E.IwRSH.eGOV_._4EzTm._22l1._49XvD.b2rUF.ZUqME:nth-child(3)
+||instagram.com###react-root > section._9eogI.E3X2T:last-child > nav.NXc7H.jLuN9:nth-child(3) > div._8MQSO.Cx7Bp:last-child > div._lz6s.Hz2lF > div.MWDvN.nfCOa > div.ctQZg:last-child > div._47KiJ > div.Fifk5:nth-child(4)
