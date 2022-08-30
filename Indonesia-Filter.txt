@@ -1,6 +1,7 @@
 [Adblock 2.0]
 ! Version: 1
-! Title: Description: Raih kembali agensi anda, blokir Bahasa Indonesia
+! Title: HazakuraID Filters 2.0
+Description: Raih kembali agensi anda, blokir Bahasa Indonesia
 ! Last modified: 30 August 2022 GMT+7
 ! Expires: 3 hari (update)
 ! Homepage: https://github.com/HazakuraID/filters
@@ -10,23 +11,22 @@
 ! https://undraw.co - blm
 ! https://mdxjs.com - blm
 ! bahasa daerah sekitar iklan indonesia tanpa mengganggu kegiatan yang berisi informasi tentang aktivasi
-
-||kabarlumajang.pikiran-rakyat.com##div.ads__horizontal
-||kabarlumajang.pikiran-rakyat.com##CENTER[style]
-||pikiran-rakyat.com##DIV.ads__horizontal
+kabarlumajang.pikiran-rakyat.com##div.ads__horizontal
+kabarlumajang.pikiran-rakyat.com##CENTER[style]
+pikiran-rakyat.com##DIV.ads__horizontal
 deblocker.merkulov.design,preview.codecanyon.net##+js(acis, eval, replace)
-||www.suara.com##DIV#iklan_anchor.footer_ads
-||www.suaramerdeka.com##div.ads__horizontal
-||www.suaramerdeka.com##div#left.stick
-||www.cnnindonesia.com##div.sisip_video_ds.ratiobox.ratiobox--16-9.sisip_video_ds_0
-||www.cnnindonesia.com##div#billboard.box-ads.megabillboard.mb0
-||www.cnnindonesia.com##div.ads-slot.ads-slot--sb.ads-slot--sb-150
-||www.cnnindonesia.com##div.ads-slot.ads-slot--sb.ads-slot--sb-250
-||www.cnbcindonesia.com##div.list__item.banner.clearfix
+www.suara.com##DIV#iklan_anchor.footer_ads
+www.suaramerdeka.com##div.ads__horizontal
+www.suaramerdeka.com##div#left.stick
+www.cnnindonesia.com##div.sisip_video_ds.ratiobox.ratiobox--16-9.sisip_video_ds_0
+www.cnnindonesia.com##div#billboard.box-ads.megabillboard.mb0
+www.cnnindonesia.com##div.ads-slot.ads-slot--sb.ads-slot--sb-150
+www.cnnindonesia.com##div.ads-slot.ads-slot--sb.ads-slot--sb-250
+www.cnbcindonesia.com##div.list__item.banner.clearfix
+www.cnbcindonesia.com##DIV.ads-slot.ads-slot--sb.ads-slot--sb-150
 
-||www.cnbcindonesia.com##DIV.ads-slot.ads-slot--sb.ads-slot--sb-150
-
-||getmodsapk.com##CENTER
-||getmodsapk.com##DIV#NR-Ads.NR-Ads.jhfdiuh0
-||getmodsapk.com##P.text-center
+! Modifikasi keamanan aplikasi pihak ketiga
+getmodsapk.com##CENTER
+getmodsapk.com##DIV#NR-Ads.NR-Ads.jhfdiuh0
+getmodsapk.com##P.text-center
 
