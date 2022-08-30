@@ -1,7 +1,7 @@
 [Adblock 2.0]
-! Version: 1
+! Version: 2
 ! Title: HazakuraID Filters 2.0
-Description: Raih kembali agensi anda, blokir Bahasa Indonesia
+! Description: Raih kembali agensi anda, blokir Bahasa Indonesia
 ! Last modified: 30 August 2022 GMT+7
 ! Expires: 3 hari (update)
 ! Homepage: https://github.com/HazakuraID/filters
