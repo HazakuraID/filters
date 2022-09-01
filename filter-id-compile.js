@@ -17,6 +17,8 @@ const credits = [
 	"https://github.com/xavier84/ban-tracker/",
 	"https://github.com/BilalAhmedali/trackers/blob/master/trackers.txt",
 	"https://github.com/blocklistproject/Lists",
+	"https://github.com/HazakuraID/filters/blob/main/Indonesia-Filter.txt",
+	"https://raw.githubusercontent.com/HazakuraID/filters/main/Indonesia-Filter.txt",
 	"https://github.com/XionKzn/PiHole-Lists/tree/master/PiHole/Archive",
 ]
 	.map((i) => `! ${i}`)
